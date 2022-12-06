@@ -1,4 +1,4 @@
-# practica_JS_navegador_sofia_romero_kamermann
+# Prática JS en el Navegador - Sofia Romero
 
 **Control de gastos**
 Necesitamos desarrollar una web que nos ayude a gestionar nuestros ingresos y gastos, con el objetivo de conocer el dinero que tenenos ahorrado.

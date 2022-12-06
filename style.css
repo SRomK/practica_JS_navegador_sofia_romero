@@ -1,0 +1,59 @@
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.h1-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border-style: dotted;*/
+}
+
+.box-tuAhorro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box-ingreso-gasto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: initial;
+}
+
+.box-ingreso,
+.box-gasto {
+    margin: 1rem;
+}
+
+.number-ingreso,
+.number-gasto {
+    text-align: center;
+}
+.number-ingreso {
+    color: green;
+}
+.number-gasto {
+    color: red;
+}
+
+/* (top, right, bottom, and left).*/
+.input-concepto,
+.input-cantidad {
+    margin: 10px 0px 10px 0px;
+}
+
+.button-añadir {
+    margin-top: 20px;
+    background-color: rgb(198, 157, 236);
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}

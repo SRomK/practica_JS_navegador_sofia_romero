@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/money.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Rubik:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Control de Gastos</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="h1-box">
+            <h1>Control de Gastos</h1>
+        </div>
+        <div class="box-tuAhorro">
+            <h2>Tu Ahorro</h2>
+            <p id="ahorroTotal">55€</p>
+        </div>
+        <div class="box-ingreso-gasto">
+            <div class="box-ingreso">
+                <p class="title-i-g">Ingreso</p>
+                <p class="number-ingreso">50€</p>
+            </div>
+            <div class="box-gasto">
+                <p class="title-i-g">Gasto</p>
+                <p class="number-gasto">50€</p>
+            </div>
+        </div>
+
+        <div class="box-historial">
+            <h3>Historial</h3>
+            <ul id="li-accum">
+
+            </ul>
+            <hr>
+        </div>
+
+        <div class="box-">
+            <h3>Añadir nueva transacción</h3>
+            <hr>
+            <label for="concepto">Concepto</label>
+            <br>
+            <input type="text" class="input-concepto" placeholder="Añade concepto...">
+            <br>
+            <label for="concepto">Cantidad (negativo - gasto, positivo - ingreso)</label>
+            <br>
+            <input type="text" class="input-cantidad" placeholder="Introduce cantidad...">
+        </div>
+        <button class="button-añadir">Añadir transacción</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

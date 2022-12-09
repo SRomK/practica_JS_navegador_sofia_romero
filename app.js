@@ -3,4 +3,4 @@
 // y se muestra sumado arriba los gastos y los ingresos y arriba de todo tu ahorro (hacer las cuentas para esos elementos0)
 // mi AHORRO es la diferencia entre ingreso y gastos (ingresos - gastos)
 
-const createLi = document.querySelector("#li-accum");
+const createLi = document.getElementById("ahorroTotal");

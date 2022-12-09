@@ -23,39 +23,48 @@
             <h2>Tu Ahorro</h2>
             <p id="ahorroTotal">55€</p>
         </div>
-        <div class="box-ingreso-gasto">
-            <div class="box-ingreso">
-                <p class="title-i-g">Ingreso</p>
-                <p class="number-ingreso">50€</p>
-            </div>
-            <div class="box-gasto">
-                <p class="title-i-g">Gasto</p>
-                <p class="number-gasto">50€</p>
+        <div id="i-g-wrapper">
+            <div class="box-ingreso-gasto">
+                <div class="box-ingreso">
+                    <p class="title-i-g">Ingreso</p>
+                    <p class="number-ingreso" id="moneyPlus">50€</p>
+                </div>
+                <div class="box-gasto">
+                    <p class="title-i-g">Gasto</p>
+                    <p class="number-gasto" id="moneyLess">50€</p>
+                </div>
             </div>
         </div>
 
         <div class="box-historial">
             <h3>Historial</h3>
-            <ul id="li-accum">
-
-            </ul>
             <hr>
+            <ul id="list" class="list">
+                <li id="minus">
+                    Cash <span>-€400</span><button class="delete-btn"><img src="./img/delete_icon.png"
+                            alt="delete icon"></button>
+                </li>
+            </ul>
+            
         </div>
 
-        <div class="box-">
+        <div class="box-transaccion">
             <h3>Añadir nueva transacción</h3>
             <hr>
-            <label for="concepto">Concepto</label>
-            <br>
-            <input type="text" class="input-concepto" placeholder="Añade concepto...">
-            <br>
-            <label for="concepto">Cantidad (negativo - gasto, positivo - ingreso)</label>
-            <br>
-            <input type="text" class="input-cantidad" placeholder="Introduce cantidad...">
+            <form id="form">
+                <div class="form-control">
+                    <label for="text">Concepto</label>
+                    <input type="text" id="input-text" placeholder="Añade concepto...">
+                </div>
+                <div class="form-control">
+                    <label for="amount">Cantidad (negativo - gasto, positivo - ingreso)</label>
+                    <input type="number" id="input-amount" placeholder="Introduce cantidad...">
+                </div>
+
+                <button class="button-añadir">Añadir transacción</button>
+            </form>
         </div>
-        <button class="button-añadir">Añadir transacción</button>
-    </div>
-    <script src="app.js"></script>
+        <script src="app.js"></script>
 </body>
 
 </html>
